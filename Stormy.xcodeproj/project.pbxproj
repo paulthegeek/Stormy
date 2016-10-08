@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742BCBDD1DA8A8E700F30D1E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742BCBDC1DA8A8E700F30D1E /* APIClient.swift */; };
 		74B20B4E1DA5E3D60022D646 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B20B4D1DA5E3D60022D646 /* CurrentWeather.swift */; };
 		74B20B511DA5E4EB0022D646 /* WeatherIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B20B501DA5E4EB0022D646 /* WeatherIcon.swift */; };
 		97F14FE91CB9EEB20065EE08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F14FE81CB9EEB20065EE08 /* AppDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		742BCBDC1DA8A8E700F30D1E /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		74B20B4D1DA5E3D60022D646 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		74B20B501DA5E4EB0022D646 /* WeatherIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherIcon.swift; sourceTree = "<group>"; };
 		97F14FE51CB9EEB20065EE08 /* Stormy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stormy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 			children = (
 				74B20B4F1DA5E4AA0022D646 /* Models */,
 				97F14FE81CB9EEB20065EE08 /* AppDelegate.swift */,
+				742BCBDC1DA8A8E700F30D1E /* APIClient.swift */,
 				97F14FEA1CB9EEB20065EE08 /* ViewController.swift */,
 				97F14FEC1CB9EEB20065EE08 /* Main.storyboard */,
 				97F14FEF1CB9EEB20065EE08 /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 				97F14FEB1CB9EEB20065EE08 /* ViewController.swift in Sources */,
 				74B20B511DA5E4EB0022D646 /* WeatherIcon.swift in Sources */,
 				74B20B4E1DA5E3D60022D646 /* CurrentWeather.swift in Sources */,
+				742BCBDD1DA8A8E700F30D1E /* APIClient.swift in Sources */,
 				97F14FE91CB9EEB20065EE08 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
